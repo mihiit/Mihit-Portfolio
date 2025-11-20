@@ -8,7 +8,7 @@ const data = {
   socials: {
     linkedin: "https://www.linkedin.com/in/mihit-nanda",
     github: "https://github.com/mihiit",
-    resume: "/resume_mihit_nanda.pdf"
+    resume: "/_mihit_nanda.pdf"
   },
   skills: [
     "React", "JavaScript (ES6+)", "Node.js", "Express.js", "MongoDB Atlas",
