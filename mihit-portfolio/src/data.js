@@ -3,7 +3,7 @@ const data = {
   name: "Mihit Nanda",
   title: "Computer Science Student | Aspiring Full-Stack Developer",
   location: "Noida, India",
-  intro: `Hi — I'm Mihit Nanda, a Computer Science student passionate about building web applications using React, Node.js, and MongoDB. I enjoy solving problems, learning system design, and experimenting with full-stack projects.`,
+  intro: `Hi — I'm Mihit Nanda, a Computer Science student studying in IILM University,Greater Noida passionate about building web applications using React, Node.js, and MongoDB. I enjoy solving problems, learning system design, and experimenting with full-stack projects.`,
   email: "mihitnanda2005@gmail.com",
   socials: {
     linkedin: "https://www.linkedin.com/in/mihit-nanda",

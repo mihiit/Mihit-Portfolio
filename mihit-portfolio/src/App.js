@@ -1,7 +1,8 @@
 // src/App.js
 import React from 'react';
 import data from './data';
-import Header from './components/Header';
+import NavBar from './components/NavBar';   // <-- new
+// import Header from './components/Header'; // removed (replaced by NavBar)
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -14,7 +15,7 @@ import './styles.css';
 function App() {
   return (
     <div className="app">
-      <Header name={data.name} />
+      <NavBar /> {/* top navigation */}
       <main className="container">
         <Hero data={data} />
         <About intro={data.intro} location={data.location} />
@@ -29,4 +30,5 @@ function App() {
 }
 
 export default App;
+
 
