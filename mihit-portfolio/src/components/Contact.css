@@ -1,0 +1,19 @@
+.contact-card {
+  background: #020617;
+  border-radius: 24px;
+  padding: 22px 24px;
+
+  /* NEON BORDER + GLOW */
+  border: 1px solid rgba(129, 140, 248, 0.7);
+  box-shadow:
+    0 0 20px rgba(129, 140, 248, 0.35),
+    0 16px 45px rgba(15, 23, 42, 0.7);
+}
+
+.contact-card a {
+  color: #38bdf8;
+}
+
+.contact-card a:hover {
+  color: #e0f2fe;
+}

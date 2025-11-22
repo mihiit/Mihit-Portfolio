@@ -10,9 +10,14 @@
   border-radius: 24px;
   padding: 28px 26px;
   color: #e5e7eb;
-  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.55);
-  border: 1px solid rgba(148, 163, 184, 0.35);
+
+  /* NEON BORDER + GLOW */
+  border: 1px solid rgba(59, 130, 246, 0.7);
+  box-shadow:
+    0 0 22px rgba(59, 130, 246, 0.35),
+    0 16px 50px rgba(15, 23, 42, 0.7);
 }
+
 
 .section-title {
   font-size: 1.4rem;
