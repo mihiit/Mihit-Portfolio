@@ -63,13 +63,6 @@ export default function Hero({ data }) {
           alt={`${data.name} profile`}
           className="profile-photo"
         />
-
-        <div className="hero-meta">
-          <div>
-            <strong>Location</strong>
-            <div>{data.location}</div>
-          </div>
-        </div>
       </div>
     </section>
   );
