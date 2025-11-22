@@ -1,0 +1,29 @@
+/* SKILLS SECTION — gradient chips */
+
+.skills-section {
+  margin-bottom: 32px;
+}
+
+.skills-card {
+  background: #020617;
+  border-radius: 24px;
+  padding: 20px 22px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  box-shadow: 0 16px 45px rgba(15, 23, 42, 0.55);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-pill {
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  background: radial-gradient(circle at top left, #4f46e5, #0ea5e9);
+  color: #f9fafb;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.6);
+  white-space: nowrap;
+}
