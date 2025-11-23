@@ -1,5 +1,6 @@
 // src/components/Projects.js
 import React from 'react';
+
 const TECH_LOGOS = [
   {
     name: "React",
@@ -25,8 +26,11 @@ const TECH_LOGOS = [
     name: "Git",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   },
+  {
+    name: "Python",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+  },
 ];
-
 
 export default function Projects({ projects }) {
   return (
@@ -36,24 +40,30 @@ export default function Projects({ projects }) {
         {projects.map((p, i) => (
           <div className="project-card" key={i}>
             <div className="project-thumb">
-  <div className="project-track">
-    {TECH_LOGOS.concat(TECH_LOGOS).map((logo, index) => (
-      <div className="project-logo-pill" key={logo.name + index}>
-        <img src={logo.src} alt={logo.name} />
-        <span>{logo.name}</span>
-      </div>
-    ))}
-  </div>
-</div>
+              <div className="project-track">
+                {TECH_LOGOS.concat(TECH_LOGOS).map((logo, index) => (
+                  <div className="project-logo-pill" key={logo.name + index}>
+                    <img src={logo.src} alt={logo.name} />
+                    <span>{logo.name}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
 
             <h4>{p.title}</h4>
             <p>{p.desc}</p>
             <div className="tech">
-              {p.tech.map((t, idx) => <span className="tag" key={idx}>{t}</span>)}
+              {p.tech.map((t, idx) => (
+                <span className="tag" key={idx}>{t}</span>
+              ))}
             </div>
             <div className="project-links">
-              <a href={p.link} target="_blank" rel="noreferrer">Live</a>
-              <a href={p.repo} target="_blank" rel="noreferrer">Code</a>
+              <a href={p.link} target="_blank" rel="noreferrer">
+                Live
+              </a>
+              <a href={p.repo} target="_blank" rel="noreferrer">
+                Code
+              </a>
             </div>
           </div>
         ))}
@@ -61,3 +71,4 @@ export default function Projects({ projects }) {
     </section>
   );
 }
+
